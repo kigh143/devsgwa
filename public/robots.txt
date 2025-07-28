@@ -1,0 +1,24 @@
+# DevsGWA - Software Development Company
+# https://devsgwa.com
+
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /system/
+Disallow: /writable/
+Disallow: /tests/
+Disallow: /*.log$
+Disallow: /env
+Disallow: /composer.json
+Disallow: /composer.lock
+
+# Allow important files
+Allow: /assets/
+Allow: /sitemap.xml
+Allow: /favicon.ico
+
+# Sitemap location
+Sitemap: https://devsgwa.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
