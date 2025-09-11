@@ -49,46 +49,53 @@ class Home extends BaseController
             ],
             'portfolio' => [
                 [
-                    'title' => 'E-Commerce Platform',
+                    'title' => 'Akeedi: E-Commerce Platform',
                     'description' => 'Modern e-commerce solution with mobile app and admin dashboard',
                     'image' => 'ecommerce-project.jpg',
-                    'tech_stack' => ['React', 'Node.js', 'MongoDB', 'Flutter'],
-                    'category' => 'Web Development'
+                    'tech_stack' => ['React', 'Nest.js', 'MySQL', 'Tailwind', 'Prisma ORM'],
+                    'category' => 'Web Development',
+                    'link' => 'https://akeedi.devsgwa.com/'
                 ],
+              
                 [
-                    'title' => 'FinTech Mobile App',
-                    'description' => 'Secure mobile banking application with biometric authentication',
-                    'image' => 'fintech-app.jpg',
-                    'tech_stack' => ['Flutter', 'Firebase', 'Blockchain', 'AI/ML'],
-                    'category' => 'Mobile Development'
-                ],
-                [
-                    'title' => 'Healthcare Management System',
-                    'description' => 'Comprehensive hospital management system with patient portal',
+                    'title' => 'Unified Landscapes',
+                    'description' => 'Professional landscaping services in Earlsfield, Wandsworth, London',
                     'image' => 'healthcare-system.jpg',
-                    'tech_stack' => ['Vue.js', 'Laravel', 'MySQL', 'Docker'],
-                    'category' => 'Enterprise Software'
+                    'tech_stack' => ['Tailwind', 'PHP', 'MySQL', 'VPs'],
+                    'category' => 'Landscaping',
+                    'link' => 'https://www.unifiedlandscapes.com/'
                 ],
                 [
-                    'title' => 'AgriTech IoT Solution',
-                    'description' => 'Smart farming solution with IoT sensors and data analytics',
+                    'title' => 'Awakndrebel',
+                    'description' => 'Design footwear that screams YOU Premium materials, handcrafted quality, and unlimited creativity',
                     'image' => 'agritech-iot.jpg',
-                    'tech_stack' => ['Python', 'IoT', 'Machine Learning', 'AWS'],
-                    'category' => 'IoT & Analytics'
+                 'tech_stack' => ['PHP', 'MySQL','Tailwind'],
+                    'category' => 'Web Development',
+                    'link'=>'https://awakndrebel.com/'
                 ],
                 [
-                    'title' => 'EdTech Learning Platform',
-                    'description' => 'Interactive online learning platform with video streaming',
+                    'title' => 'Rentalynk Platform',
+                    'description' => 'Empowering secure real estate transactions, comprehensive land verification',
                     'image' => 'edtech-platform.jpg',
-                    'tech_stack' => ['Next.js', 'PostgreSQL', 'WebRTC', 'Redis'],
-                    'category' => 'Education Technology'
+                    'tech_stack' => ['PHP', 'MySQL','Tailwind'],
+                    'category' => 'Real estate',
+                    'link' => 'https://rentalynk.com/'
                 ],
                 [
-                    'title' => 'Logistics Tracking System',
-                    'description' => 'Real-time package tracking with GPS integration',
+                    'title' => 'Emporiumtwentytwo',
+                    'description' => 'Turning Moments Into Memories: Expert Event Planning for Every Occasion',
+                    'image' => 'edtech-platform.jpg',
+                    'tech_stack' => ['PHP', 'MySQL','Tailwind'],
+                    'category' => 'Event Planning',
+                    'link' => 'https://emporiumtwentytwo.com/'
+                ],
+                [
+                    'title' => 'Trancpota : Logistics website',
+                    'description' => 'Community-powered delivery platform connecting senders with travelers coutrywide.',
                     'image' => 'logistics-system.jpg',
-                    'tech_stack' => ['Angular', 'Spring Boot', 'Google Maps', 'Kafka'],
-                    'category' => 'Logistics & Transport'
+                    'tech_stack' => ['Nest Js', 'Tailwind Css', 'React JS', 'Prisma ORM', 'MySQL'],
+                    'category' => 'Logistics & Transport',
+                    'link' => 'https://trancpota.devsgwa.com/'
                 ]
             ]
         ];

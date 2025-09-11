@@ -731,15 +731,14 @@
 
                         <!-- Project Links -->
                         <div class="flex space-x-3">
-                            <a href="https://api.whatsapp.com/send/?phone=447930068728&text=Hi! I'm interested in learning more about your <?= esc($project['title']) ?> project.&type=phone_number&app_absent=0"
+                            <a href="<?= esc($project['link']) ?>"
                                target="_blank"
                                class="flex-1 bg-gradient-to-r from-tech-blue to-tech-purple text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg hover:shadow-tech-blue/25 transition duration-300 text-center">
-                                <i class="fab fa-whatsapp mr-2"></i>
-                                Contact Us
+                                View Project
                             </a>
-                            <button class="px-4 py-2 glass theme-text-secondary hover:text-white rounded-lg transition duration-300">
+                            <a class="px-4 py-2 glass theme-text-secondary hover:text-white rounded-lg transition duration-300">
                                 <i class="fab fa-github"></i>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -969,18 +968,13 @@
                         Building the future, one line of code at a time.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 bg-gradient-to-r from-tech-blue to-tech-purple rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-blue/25 transition duration-300">
+                        <a href="https://www.linkedin.com/company/devsgwa-software-agency" class="w-10 h-10 bg-gradient-to-r from-tech-blue to-tech-purple rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-blue/25 transition duration-300">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-gradient-to-r from-tech-purple to-tech-cyan rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-purple/25 transition duration-300">
+                        <a href="https://www.x.com/devsgwa" class="w-10 h-10 bg-gradient-to-r from-tech-purple to-tech-cyan rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-purple/25 transition duration-300">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-gradient-to-r from-tech-cyan to-tech-green rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-cyan/25 transition duration-300">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-gradient-to-r from-tech-green to-tech-orange rounded-lg flex items-center justify-center text-white hover:shadow-lg hover:shadow-tech-green/25 transition duration-300">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                    
                     </div>
                 </div>
 
